@@ -2,3 +2,8 @@
 #như là số nguyên từ 1 đến n (bao gồm cả 1 và n) sau đó in ra dictionary này. 
 # Ví dụ: Giả sử số n là 8 thì đầu ra sẽ là: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}.
 
+num = dict()
+n = int(input("Nhập một số nguyên: "))
+for i in range(n + 1):
+    num[i] = i*i
+print("num:", num)
