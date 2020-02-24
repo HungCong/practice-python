@@ -1,0 +1,6 @@
+*Pull code
+	git pull origin master
+*commit code
+	git commit -m "..."
+*Push code
+	git push -u origin master
